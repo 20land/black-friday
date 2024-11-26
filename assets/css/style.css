@@ -45,3 +45,38 @@ body {
 .input::-moz-placeholder {
   animation: 2s infinite alternate pulse;
 }
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.8);
+  display: none;
+}
+
+.modal .content {
+  width: 500px;
+  max-width: 80%;
+  padding: 60px 40px;
+  background-color: #91b3fa;
+  border-radius: 50px;
+  margin: 20vh auto 0;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+}
+
+.modal button {
+  margin-top: 50px;
+  padding: 10px 30px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 40px;
+  border: none;
+  background-color: #ff6b00;
+}
