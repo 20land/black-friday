@@ -6,6 +6,12 @@
     <title>شامپو ریزش مو حنانه</title>
     <link rel="stylesheet" href="assets/css/output.css" />
     <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -53,253 +59,261 @@
       })(window, document, "yektanet");
     </script>
   </head>
-  <body dir="rtl">
-    <header class="bg-[#007879] relative z-20">
+  <body
+    style="
+      background-image: url('./assets/img/wall.png');
+      background-color: rgba(0, 0, 0, 0.89);
+      background-blend-mode: lighten;
+    "
+    class="h-48 bg-no-repeat bg-cover"
+  >
+    <header
+      class="h-[200px] sm:h-[290px] lg:h-[468px] 2xl:h-[560px] w-full text-[10px] md:text-sm lg:text-[30px] 2xl:text-[40px]"
+    >
       <div
-        class="flex flex-row-reverse items-center justify-center lg:justify-between py-4 lg:py-6 text-white container mx-auto px-6 2xl:px-0"
+        class="h-full w-full desktop hidden md:block  bg-repeat-y bg-cover bg-center"
+        style="background-image: url('./assets/img/black-friday.webp')"
       >
-        <h1 class="text-2xl font-bold">درمــــان ریـــزش مـــــو</h1>
-        <h2 class="text-2xl hidden lg:block">
-          نمیــذاریم حتـی یه تــار مو از سرتــون کــم بشه
-        </h2>
+        <div class="h-full w-full flex flex-col justify-end py-[3%] gap-1.5">
+          <h1
+            class="text-center translate-x-[10%] text-white font-black text-lg lg:text-3xl xl:text-4xl xl:py-3"
+          >
+            به خــاطر شما دومی رو رایگان کردیم
+          </h1>
+          <h2
+            class="text-center translate-x-[10%] text-white font-black text-lg lg:text-3xl xl:text-4xl"
+          >
+            یک محصول بخرید، دومی مهمان ما
+          </h2>
+        </div>
+      </div>
+      <div
+        class="h-full w-full mobile block md:hidden bg-no-repeat bg-cover bg-center"
+        style="background-image: url('./assets/img/black-banner-mobile.png')"
+      >
+        <div class="h-full w-full flex flex-col justify-end py-[3%] gap-1">
+          <h1
+            class="text-center translate-x-[8%] text-white text-sm font-black"
+          >
+            به خــاطر شما دومی رو رایگان کردیم
+          </h1>
+          <h2
+            class="text-center translate-x-[8%] text-white text-sm font-black"
+          >
+            یک محصول بخرید، دومی مهمان ما
+          </h2>
+        </div>
       </div>
     </header>
-    <section class="bg-[#44C6C4] relative z-10 pb-6 overflow-hidden">
-      <div class="container mx-auto">
-        <div
-          class="flex flex-col xl:flex-row-reverse justify-center xl:justify-between xl:items-stretch gap-y-5 gap-x-10"
-        >
-          <div class="w-full xl:w-1/2 flex items-center justify-between px-4">
-            <div class="w-full flex justify-between">
-              <div class="w-full xl:w-[60%]">
-                <img
-                  src="assets/img/light.png"
-                  alt="light"
-                  class="w-full -mt-8 lg:mt-0 aspect-[4/3] lg:aspect-auto max-w-[450px] mx-auto object-contain"
-                />
-                <form>
-                  <div
-                    class="rounded-full bg-white overflow-hidden py-0.5 px-1.5 flex items-center max-w-[400px] mx-auto -mt-16 relative z-10"
-                  >
-                    <button
-                      class="rounded-full text-white bg-[#44C6C4] border-white border-[1px] outline-none p-2"
-                      type="submit"
-                    >
-                      ثبت
-                    </button>
-                    <input
-                      type="text"
-                      dir="ltr"
-                      class="w-full h-full py-2 pe-4 ps-10 bg-inherit text-black/60 outline-none border-none placeholder:text-black/30 text-2xl placeholder:text-[20px] placeholder:text-end"
-                      placeholder="شماره خود را وارد کنید"
-                    />
-                  </div>
-                </form>
-                <div class="relative z-10 w-fit hidden xl:block">
-                  <img
-                    src="assets/img/desk.png"
-                    class="w-[45%] max-w-[400px] lg:w-[400px] h-auto object-contain"
-                    alt="desk"
-                  />
-                  <div
-                    class="absolute top-1/2 start-1/2 translate-x-1/2 bg-transparent p-0.5 rounded-full w-20 aspect-square flex items-centr justify-center"
-                  >
-                    <img
-                      src="assets/img/logobl.png"
-                      alt="logo"
-                      class="object-contain"
-                    />
-                  </div>
-                </div>
-              </div>
-
-              <div class="flex-1 self-end hidden xl:block">
-                <div
-                  class="w-full max-w-[390px] aspect-[2/3] relative top-0 end-0 z-20"
-                >
-                  <img
-                    src="assets/img/man.gif"
-                    alt="man"
-                    loading="lazy"
-                    class="absolute top-0 end-0 xl:end-20 w-full h-auto"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="w-full xl:w-1/2 lg:py-8 px-6 xl:px-0">
+    <main>
+      <section  class="px-2">
+        <div class="swiper products-one mt-5 px-2 select-none">
+          <div class="swiper-wrapper">
             <div
-              class="max-w-[600px] lg:max-w-none mx-auto rounded-[20px] lg:rounded-[60px] grid grid-cols-1 grid-rows-1 bg-[#007879] bg-opacity-90 py-2"
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
             >
-              <img
-                src="assets/img/animate1.png"
-                alt="after"
-                class="w-full h-auto col-start-1 row-start-1 animate-fadeOne"
-              />
-              <img
-                src="assets/img/animate2.png"
-                alt="after"
-                class="w-full h-auto col-start-1 row-start-1 animate-fadeTwo"
-              />
-              <img
-                src="assets/img/animate3.png"
-                alt="after"
-                class="w-full h-auto col-start-1 row-start-1 animate-fadeThree"
-              />
-              <img
-                src="assets/img/animate4.png"
-                alt="after"
-                class="w-full h-auto col-start-1 row-start-1 animate-fadeFour"
-              />
+            <img src="./assets/img/p-one.png" alt="product-one" class="w-full h-full block object-cover ">
+            <div class="absolute top-[-10%] start-[5%] w-10 h-10 md:w-20 md:h-20 animate-pulse delay-75">
+              <img src="./assets/img/fifty-percent.png" alt="50%" class="w-full h-full block object-contain">
             </div>
-          </div>
-        </div>
-        <!-- desk and man in mobile -->
-        <div class="w-full xl:hidden relative flex px-4">
-          <div class="relative w-2/3 translate-x-[-20%]">
-            <div class="relative z-10 max-w-[400px] md:max-w-[600px]">
-              <img
-                src="assets/img/desk.png"
-                class="w-full h-auto object-contain"
-                alt="desk"
-              />
-              <div
-                class="absolute top-1/2 start-1/2 translate-x-1/2 bg-white p-0.5 rounded-full w-[20%] aspect-square flex items-centr justify-center"
-              >
-                <img
-                  src="assets/img/logobl.png"
-                  alt="logo"
-                  class="object-contain"
-                />
-              </div>
             </div>
-          </div>
-          <div
-            class="flex-1 max-w-[200px] sm:max-w-[350px] h-auto relative top-0 end-0 z-10 md:translate-x-16"
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-two.png" alt="product-two" class="w-full h-full block object-cover ">
+            <div class="absolute top-[85%] start-[5%] h-7 w-7 md:h-14 md:w-14 animate-pulse delay-100">
+              <img src="./assets/img/one-plus-one.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-three.png" alt="product-three" class="w-full h-full block object-cover ">
+            <div class="absolute top-1/3 start-[5%] w-10 h-10 md:w-20 md:h-20 animate-pulse delay-0">
+              <img src="./assets/img/fifty-percent.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-four.png" alt="product-four" class="w-full h-full block object-cover ">
+            <div class="absolute top-[-10%] start-[5%] w-10 h-10 md:w-20 md:h-20 animate-pulse">
+              <img src="./assets/img/one-plus-one.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-five.png" alt="product-fiv" class="w-full h-full block object-cover ">
+            <div class="absolute top-[85%] start-[5%] h-7 w-7 md:h-14 md:w-14 animate-pulse">
+              <img src="./assets/img/one-plus-one.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-six.png" alt="product-six" class="w-full h-full block object-cover ">
+            <div class="absolute top-[40%] end-[3%] w-10 h-10 md:w-20 md:h-20 animate-pulse">
+              <img src="./assets/img/fifty-percent.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-seven.png" alt="product-seven" class="w-full h-full block object-cover ">
+            <div class="absolute top-[-10%] end-[5%] w-10 h-10 md:w-20 md:h-20 animate-pulse">
+              <img src="./assets/img/one-plus-one.png" alt="50%" class="w-full h-full block object-contain">
+            </div>
+            </div>
+           
+           
+            </div>
+      </section>
+    </main>
+    <section class="z-10 pb-6 pt-8 overflow-hidden ">
+      <h3 class="text-base font-black md:text-2xl lg:text-[40px] text-center text-white">یک محصول بخرید، دومی مهمون ما</h3>
+      <h4 class="text-xl md:text-3xl lg:text-[64px] text-center text-white py-8">دریـــافـــت شــمـاره</h4>
+      <form class="md:mt-5 px-6 md:px-0" method="post" id="myForm">
+        {% csrf_token %}
+        <div
+          class="rounded-full bg-white overflow-hidden py-2  flex items-center  lg:max-w-[600px] mx-auto relative z-10 border-[1px] border-black h-20 md:h-24"
+        >
+          <button
+            class="rounded-full text-white bg-red-500 border-white border-[1px] outline-none h-full aspect-square text-base md:text-xl -translate-x-2"
+            type="submit"
           >
-            <img
-              src="assets/img/man.gif"
-              alt="man"
-              loading="lazy"
-              class="absolute w-[125%] sm:w-full max-w-none -top-12 start-0"
-            />
-          </div>
+            ثبت
+          </button>
+          <input
+            type="text"
+            dir="ltr"
+            class=" input w-full h-full py-2 pe-4 ps-10 bg-inherit text-black/60 outline-none border-none  text-2xl "
+            placeholder="0912450****"
+            required="required"
+            maxlength="11"
+            autocomplete="off"
+          />
         </div>
-      </div>
-      <div class="absolute bottom-0 start-0 w-full z-[-1] flex flex-col">
-        <div class="flex flex-col gap-y-6">
-          <div class="bg-[#00B2AE] w-full h-5"></div>
-          <div class="bg-[#00B2AE] w-full h-5"></div>
-          <div class="bg-[#00B2AE] w-full h-5"></div>
-          <div class="bg-white w-full h-8"></div>
-        </div>
-
-        <div class="bg-[#007879] bg-opacity-90 w-full h-20"></div>
-      </div>
+      </form>
     </section>
-    <footer class="bg-[#007879] w-full">
-      <div
-        class="px-6 2xl:px-0 xl:container mx-auto flex items-start gap-4 lg:gap-20 lg:px-8 py-8 justify-between"
-      >
-        <div
-          class="flex items-start flex-col min-[380px]:flex-row justify-between gap-4 w-1/2 whitespace-nowrap"
-        >
-          <div
-            class="rounded-full bg-white overflow-hidden relative items-center justify-center p-2 w-20 aspect-square hidden xl:flex"
-          >
-            <img src="assets/img/logobl.png" alt="logo" class="w-full h-auto" />
-          </div>
-          <div class="flex flex-col gap-3">
-            <p
-              class="px-1 sm:px-4 py-2 bg-white rounded-3xl text-black font-bold text-center text-[10px] lg:text-sm"
+ 
+      <section  class="max-w-[90%] mx-auto">
+        <div class="swiper products-two mt-5 px-2 select-none">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
             >
-              فروشگاه بیست لند
-            </p>
-            <div class="flex gap-2 items-center text-white">
-              <img src="assets/img/time.png" alt="time" class="w-5 h-5" />
-              <p class="text-white text-[8px] lg:text-sm">
-                ساعت کاری مجموعه بیستلند
-              </p>
+            <img src="./assets/img/p-one.png" alt="product-one" class="w-full h-full block object-cover ">
             </div>
-            <div class="flex gap-1 items-center text-white">
-              <img src="assets/img/date.png" alt="date" class="w-5 h-5" />
-              <p class="text-white text-[8px] lg:text-sm">
-                شنبه تا چهارشنبه 9 صبـح الی 16
-              </p>
-            </div>
-            <div class="flex gap-1 items-center text-white">
-              <img src="assets/img/date.png" alt="date" class="w-5 h-5" />
-              <p class="text-white text-[8px] lg:text-sm">
-                پنجـشـنـبــه 9 صبــح الــی 14
-              </p>
-            </div>
-          </div>
-          <div class="flex flex-col gap-3">
-            <p
-              class="px-4 py-2 bg-white rounded-3xl text-black font-bold text-center text-[10px] lg:text-sm"
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
             >
-              سایر راهای ارتبـاطی
-            </p>
-            <div class="flex flex-col gap-1">
-              <p class="text-[10px] lg:text-sm text-white text-center">
-                10 را به 50009020
-              </p>
-              <p class="text-[10px] lg:text-sm text-white text-center">
-                پــیــامــک کنـیــد
-              </p>
+            <img src="./assets/img/p-two.png" alt="product-two" class="w-full h-full block object-cover ">
             </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-three.png" alt="product-three" class="w-full h-full block object-cover ">
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-four.png" alt="product-four" class="w-full h-full block object-cover ">
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-five.png" alt="product-fiv" class="w-full h-full block object-cover ">
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-six.png" alt="product-six" class="w-full h-full block object-cover ">
+            </div>
+            <div
+              class="swiper-slide rounded-3xl  shadow-md shadow-black/50 my-8 h-[300px] 3xl:h-56 relative"
+            >
+            <img src="./assets/img/p-seven.png" alt="product-seven" class="w-full h-full block object-cover ">
+            </div>
+          
+            </div>
+
+    </section>
+    <section class="py-8 flex justify-between gap-4 max-w-[90%] mx-auto">
+
+<div  class="w-full lg:max-w-[800px] self-center flex items-center justify-end">
+<p class="text-xl sm:text-3xl md:text-4xl lg:text-[40px] text-center xl:text-[60px] text-white py-4 lg:leading-[4rem] xl:leading-[5rem] flex items-center justify-end">منتظرت بودیم! بزرگتـــــــرین
+  تخفیف های حنانه اینجاست!</p>
+</div>
+<div class="w-full lg:max-w-[800px]  self-center flex items-center justify-end">
+  <img src="./assets/img/neon.png" alt="neon" class="w-full h-full block max-w-[600px] max-h-[600px] aspect-[1541/980] object-cover animate-pulse">
+</div>
+    </section>
+    <footer class="bg-black text-white py-10 ">
+      <div class="max-w-[90%] mx-auto h-full flex items-center justify-between gap-8 lg:gap-16">
+      <div class="flex flex-col lg:flex-row lg:items-center justify-between w-full gap-2 lg:gap-0">
+        <p class=" lg:ps-0 font-bold text-base lg:text-xl">فروشگــاه بیستلنــد</p>
+        <div class="flex items-center gap-1 md:gap-2">
+          <img src="assets/img/time.png" alt="time" class='w-6 h-6' />
+          <div class="flex flex-col gap-2">
+            <p>ساعت کـاری مجموعه بیستلنـــد</p>
+            <p>شنبه تا چهارشنبه 9 صبح  الی 16</p>
+            <p>پـنـجشنبــه 9 صـــبــح الی 14</p>
           </div>
         </div>
-        <div
-          class="grid grid-cols-2 lg:grid-cols-4 md:gap-1 gap-y-4 items-start text-whtie max-w-[30%] grow lg:w-auto"
-        >
-          <div class="flex flex-col gap-y-2 items-center">
-            <img
-              src="assets/img/one.png"
-              alt="one"
-              class="h-6 md:h-8 w-auto object-contain"
-            />
-            <p class="text-[8px] lg:text-sm text-white text-center">
-              مشاوره تخصصی رایگان
-            </p>
+        <div class="flex flex-col gap-1 md:gap-2">
+          <p class="hidden lg:block">راههای ارتباطی </p>
+
+          <div class="flex items-center gap-1 md:gap-2">
+            <img src="assets/img/time.png" alt="time" class='w-6 h-6' />
+            <a href="tel:02191009893">02191009893</a>
           </div>
-          <div class="flex flex-col gap-y-2 items-center">
-            <img
-              src="assets/img/two.png"
-              alt="two"
-              class="h-6 md:h-8 w-auto object-contain"
-            />
-            <p class="text-[8px] lg:text-sm text-white text-center">
-              پشتیبانی تا پایان دوره درمان
-            </p>
-          </div>
-          <div class="flex flex-col gap-y-2 items-center">
-            <img
-              src="assets/img/three.png"
-              alt="one"
-              class="h-6 md:h-8 w-auto object-contain"
-            />
-            <p class="text-[8px] lg:text-sm text-white text-center">
-              تضمین اصالت کالا
-            </p>
-          </div>
-          <div class="flex flex-col gap-y-2 items-center">
-            <img
-              src="assets/img/free.png"
-              alt="one"
-              class="h-6 md:h-8 w-auto object-contain"
-            />
-            <p class="text-[8px] lg:text-sm text-white text-center">
-              ارسال رایگان
+          <div class="flex items-center gap-1 md:gap-2">
+            <img src="assets/img/time.png" alt="time" class='w-6 h-6' />
+            <p>
+
+              20land.shop
             </p>
           </div>
         </div>
       </div>
+      <div class="grid grid-cols-2 lg:grid-cols-4  gap-y-10">
+       
+          <div class="flex flex-col items-center gap-2">
+            <img src="assets/img/icons4.png" alt="icon4" class="w-8 h-8 object-contain" />
+            <p class="text-center text-xs sm:text-sm ">مشاوره تخصصی رایگان</p>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <img src="assets/img/icons3.png" alt="icon3" class="w-8 h-8 object-contain" />
+            <p class="text-center text-xs sm:text-sm ">پشتیبانی تا پایان دوره درمان</p>
+          </div>
+          <div class="flex flex-col items-center gap-2">
+            <img src="assets/img/icons2.png" alt="icon2" class="w-8 h-8 object-contain" />
+            <p class="text-center text-xs sm:text-sm ">تضمین اصالت کالا</p>
+          </div>
+  
+          <div class="flex flex-col items-center gap-2">
+            <img src="assets/img/icons1.png" alt="icon1" class="w-8 h-8 object-contain" />
+            <p class="text-center text-xs sm:text-sm ">ارسال رایگان</p>
+          </div>
+       
+      </div>
+      
+    </div>
     </footer>
 
     <script>
       $(document).ready(function () {
+        $("#myForm").on("submit", function (e) {
+          e.preventDefault();
+          const phoneNumber = document.getElementById("phoneNumber");
+          if (phoneNumber?.value?.length == 11) {
+            this.submit();
+          } else {
+            alert("شماره موبایل صحیح نیست");
+          }
+        });
 
         $('.msg-hdlrr').css('height', `${$(window).height()}px`);
         {% if messages %}
@@ -318,5 +332,6 @@
         });
       })
     </script>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
